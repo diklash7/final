@@ -1,0 +1,86 @@
+body {
+  background-color: rgba(177, 39, 73, 0.836);
+  text-align: center;
+}
+
+
+h1 {
+  color: rgb(252, 168, 196);
+  font-size: 80px;
+  font-family: monospace;
+}
+
+
+table {
+  background-color: rgb(206, 157, 172);
+  border: 5px solid rgb(180, 116, 135);
+  text-align: center;
+  margin: auto;
+  table-layout: fixed;
+  height: 300px;
+  width: 300px;
+}
+
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+td, th {
+  border: solid 1px rgb(128, 128, 128);
+  cursor: pointer;
+
+}
+
+
+button {
+  background-color: rgb(228, 115, 134);
+  margin-top:10px;
+  margin-inline-end: 20px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+.time {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+.smile {
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  height: 90px;
+  margin-bottom: 50px;
+}
+
+
+.marked::after {
+  content: "🚩";
+ }
+
+
+.hide{
+  
+  display: none;
+}
+
+.show{
+  display: none;
+ 
+}
+
+.lives{
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
